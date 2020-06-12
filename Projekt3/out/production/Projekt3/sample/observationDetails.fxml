@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="297.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ObservationController">
+   <children>
+      <Text fx:id="statusText" layoutX="41.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status:" />
+      <Text fx:id="categoryText" layoutX="43.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category:" />
+      <Text fx:id="codeText" layoutX="43.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Code:" />
+      <Text fx:id="dateText" layoutX="41.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:" />
+      <Text fx:id="valueText" layoutX="42.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Value:" />
+      <Text fx:id="unitText" layoutX="40.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit/Context:" />
+   </children>
+</AnchorPane>
